@@ -37,7 +37,8 @@
 	}
 	.nav_dots {
 		margin-top: 0px;
-		padding-bottom: 43px;
+		padding-bottom: 0px;
+		margin: 0px auto;
 	}
 	.about {
 		padding-top: 70px;
@@ -84,14 +85,14 @@
 		padding-left: 11px;
 	}
 	.navi_starts {
-		margin-left: 136px;
+		margin-left: 52px;
 	}
 	.img_upper {
 		height: 1209px;
 	}
 	.updates {
 		padding-left: 17px;
-		padding-top: 51px;
+		padding-top: 30px;
 	}
 	.updates__menu {
 		width: 315px;

@@ -16,9 +16,14 @@
 		border: 1px solid #051116;
 		box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
 		background-color: rgba(54, 41, 62, 0.9);
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4a3e51,endColorstr=#4a3e51);
 		text-align: center;
 	}
 	
+	.menu1 {
+		width:244px;
+		margin:0 auto;
+	}
 	.drop {
 		padding-top: 0;
 		margin: auto auto;
@@ -33,6 +38,7 @@
 		border: 1px solid #051116;
 		box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
 		background-color: rgba(54, 41, 62, 0.9);
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4a3e51,endColorstr=#4a3e51);
 		border-radius:  0 0 8px 8px;
 	}
 	.menu__list {
@@ -40,6 +46,7 @@
 	}
 	.drop .menu__list .menu__link:hover {
 		background-color: rgba(54, 41, 62, 0.9);
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4a3e51,endColorstr=#4a3e51);
 	}
 	.menu__link {
 		height: 38px;
@@ -87,11 +94,12 @@
 	/*/drop menu*/
 	/*slider*/
 	.slider {
-		margin-top: 100px;
+		/*margin-top: 100px;*/
 		height: 246px;
 	}
 	.img_slider {
 		height: 244px;
+		margin-top: 100px;
 	}
 	.slider__img {
 		height: 277px;
@@ -102,7 +110,7 @@
 	}
 	.slider__larrow {
 		margin-left: -3px;
-		padding-top: 9px;
+		padding-top: 5px;
 	}
 	.slider__rarrow {
 		padding-top: 101px;
@@ -119,7 +127,7 @@
 	}
 	.slider__text {
 		padding-left: 0;
-		padding-top: 92px;
+		padding-top: 94px;
 		width: 47%;
 	}
 	.slider__span
@@ -145,14 +153,18 @@
     	padding-top: 0px;
 	}
 	.nav_dots {
-		float: initial;
-		clear: both;
+		float: none;
+		/*clear: both;*/
 		padding-left: 2px;
 		padding-top: 0;
 		padding-right: 0;
 		width: 83px;
 		margin:0 auto;
-		padding-bottom: 0;
+		padding-bottom:0px;
+	}
+	.dots {
+		width:100px;
+		margin:0 auto;
 	}
 	/*about*/
 	.about {
@@ -203,7 +215,8 @@
 	}
 	.navi_starts {
 		padding-top: 24px;
-		margin-left: 204px;
+		margin-left: 133px;
+
 	}
 	.starts__fon {
 		width: 414px;
@@ -236,7 +249,7 @@
 	}
 	.updates {
 		padding-left: 81px;
-		padding-top: 49px;
+		padding-top: 30px;
 		float: initial;
 	}
 	.updates__span2 {
