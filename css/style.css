@@ -167,6 +167,7 @@ body {
 	padding-right: 7vw;
 	float: right;
 	margin-top: -16px;
+	
 	height: 400px;
 }
 .hiden {
@@ -181,7 +182,7 @@ body {
 }
 .dots {
 	width: 100px;
-	height: 19px;
+	height: 39px;
 	overflow:hidden;
 }
 .dots__list {
